@@ -29,7 +29,7 @@ contract LoyaltyProgram {
     
     function register() public { //function to register customer
         require(!customers[msg.sender].isRegistered, "Customer is already registered");
-        customers[msg.sender] = Customer(100, true); // Upon registering the customer earns 100 points
+        customers[msg.sender] = Customer(1000, true); // Upon registering the customer earns 1000 points
         emit Registered(msg.sender); //notify and update customer status
     }
     
