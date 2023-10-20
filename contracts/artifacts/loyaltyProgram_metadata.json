@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/loyaltyprogram.sol": {
-			"keccak256": "0xe2feb4dbe680ca0f24385d75cce10d887f4610310789f8e49d9cadd4eafb9231",
+			"keccak256": "0x4199a2517c4c8edd17e1fe6cebccdd60278f2674d7d7d40918fa7ad5197f638f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://90f2930eba5b4cc8ffa4e2479e772077d09359c1e7d069ca97f22be4222ca905",
-				"dweb:/ipfs/QmevoTQzgBsi5JiDKAQGY9mkzRBJjdVUofuAtwR3QHtm5N"
+				"bzz-raw://66f3a7c6a08304fe51f57cc8fd162b49951347e6953b7cdfa3bb825f6797e048",
+				"dweb:/ipfs/QmVX5aJ5mf63c315Fe2Qkfuid7nYdY6zxNgzvCXfqKRuAY"
 			]
 		}
 	},
