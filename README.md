@@ -1,4 +1,4 @@
-# blkcloyaltyprog
+# Blockchain Loyalty Program
 Blockchain Smart Loyalty Program 
 Contract deployed in Sepolia : 
 
